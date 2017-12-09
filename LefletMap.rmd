@@ -1,0 +1,13 @@
+---
+
+output: html_document
+---
+
+## December 9, 2017
+
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE}
+library(leaflet)
+m <- leaflet() %>% setView(lng = -82.4572, lat = 27.9506, zoom = 10)
+m %>% addTiles()
+```
